@@ -1,0 +1,19 @@
+# Passo 1: Solicitar o primeiro número do usuário
+# A função input mostra a mensagem e espera o usuário digitar
+# float() converte o texto digitado em número decimal
+num1 = float(input("Digite o primeiro número: "))
+
+# Passo 2: Solicitar o segundo número do usuário
+num2 = float(input("Digite o segundo número: "))
+
+# Passo 3: Comparar os números usando estrutura if-elif-else
+if num1 > num2:
+    # Se num1 for maior que num2, mostra esta mensagem
+    print(f"{num1} é maior que {num2}")
+elif num2 > num1:
+    # Se num2 for maior que num1, mostra esta mensagem
+    print(f"{num2} é maior que {num1}")
+else:
+    # Se nenhuma das condições acima for verdadeira,
+    # significa que os números são iguais
+    print("Os números são iguais")
