@@ -1,0 +1,14 @@
+tempo = int(input('Digite o tempo em horas: '))
+velocidade = int(input('Digite a velocidade em KM/H: '))
+
+
+distancia = tempo * velocidade
+
+
+litros_usados = distancia / 12
+
+
+print(f'\nVelocidade # Exmédia: {velocidade} KM/H')
+print(f'Tempo gasto na viagem: {tempo} horas')
+print(f'Distância percorrida: {distancia} KM')
+print(f'Litros de combustível usados: {litros_usados:.2f} L')
