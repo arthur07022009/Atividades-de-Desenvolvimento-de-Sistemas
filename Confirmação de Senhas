@@ -1,0 +1,10 @@
+senha = input("Digite uma senha: ")
+confirma_senha = input("Confirme a senha: ")
+
+
+if senha == confirma_senha:
+    print("Acesso permitido")
+else:
+
+
+    print("Senhas não coincidem")
